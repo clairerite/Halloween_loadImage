@@ -1,5 +1,6 @@
 PImage img;
 void setup () {
+/* @pjs preload = "halloween_background.png"; */
   size (1000, 563);
   img = loadImage ("halloween_background.png");
   image (img, 0, 0);

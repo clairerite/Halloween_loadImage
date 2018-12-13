@@ -1,7 +1,8 @@
+/* @pjs preload = "halloween_background.png"; */
+/* @pjs preload = "small_pumpkin.png"; */
 PImage img;
 void setup () {
 /* @pjs preload = "halloween_background.png"; */
-/* @pjs preload = "small_pumpkin.png"; */
   size (1000, 563);
   img = loadImage ("halloween_background.png");
   image (img, 0, 0);
